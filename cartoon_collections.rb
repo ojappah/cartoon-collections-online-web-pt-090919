@@ -1,24 +1,6 @@
-def roll_call_dwar(array)
-new_array= []
- roll_call_dwarves.each_with_index do |dwarf|
-   new_array << 
-   puts "#{array}"
+def roll_call_dwarves(array)
+   array.each_with_index { |word, index| puts "#{index+1} #{word}" }
 end
-new_array
-end
-   
- roll_call_dwarves(["Doc", "Dopey", "Bashful", "Grumpy"])
- puts (array)
-  i = 0
-  my_collection = []
-  while i < array.length
-
-    my_collection << yield(array[i])
-    i += 1
-  end
-  my_collection
-end
-# Your code here
 end
 
 def summon_captain_planet# code an argument here
