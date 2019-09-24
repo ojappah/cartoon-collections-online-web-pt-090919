@@ -6,7 +6,7 @@ end
 new_array
 end
    
- roll_call_dwarves(array)
+ roll_call_dwarves(["Doc", "Dopey", "Bashful", "Grumpy"])
  puts (array)
   i = 0
   my_collection = []
